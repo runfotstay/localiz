@@ -2,17 +2,23 @@
 /**
  * Получаем текующуй язык из урла
  */
-$lang = end(explode('.', $_SERVER["SERVER_NAME"]));
+
+/*
+ * Не .lo, а .lo/ru либо .lo/en либо .lo/pl (короче, немного не так как ты сделал нужно было)
+ * */
+
+//$lang = end(explode('.', $_SERVER["SERVER_NAME"]));
+
+$lang = trim((string)$_SERVER["REQUEST_URI"], "/");
 
 switch ($lang) {
-    case 'lo':
+    default:
+    case 'ru':
         $result = include 'langs/ru/cont.php';
         break;
     case 'en':
         $result = include 'langs/en/cont.php';
         break;
-    default:
-        echo '404';
 }
 ?>
 <!DOCTYPE html>
