@@ -22,7 +22,7 @@
                                 <?php endforeach; ?>
                             </ul>
                             <div class="d-flex m-t-30 align-items-center">
-                                <h2 class="price"><?php echo $el['price']?><sup>*</sup><small>/m</small></h2>
+                                <h2 class="price"><?php echo $el['price']?></h2>
                                 <div class="ml-auto"><a class="btn btn-info-gradiant" href="#"><?php echo $el['buy']?></a></div>
                             </div>
                         </div>
