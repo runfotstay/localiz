@@ -98,16 +98,16 @@ Footer 4
   border-top: 1px solid rgba(120, 130, 140, 0.13); }
 
 .footer5 .form-control {
-  background: #ffffff; }
+  background: #512DA8; }
 
 .footer5 .social-links {
   margin: 20px 0; }
   .footer5 .social-links a {
-    color: #8d97ad;
+    color: #512DA8;
     opacity: 0.5;
     padding: 0 15px 0 0; }
     .footer5 .social-links a:hover {
-      color: #316ce8;
+      color: #512DA8;
       opacity: 1; }
 
 /*******************

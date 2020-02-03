@@ -17,6 +17,7 @@
     <link href="/html/assets/node_modules/aos/dist/aos.css" rel="stylesheet">
     <link href="/html/assets/node_modules/prism/prism.css" rel="stylesheet">
     <link href="/html/assets/node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.standalone.min.css'>
     <!-- This page CSS -->
     <link href="/html/assets/node_modules/owl.carousel/dist/assets/owl.theme.green.css" rel="stylesheet">
     <!-- Custom CSS -->
