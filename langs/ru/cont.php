@@ -1,30 +1,123 @@
 <?php
 
 return [
-    'menu'  => [
-                   1 => 'меню 1',
-                   2 => 'меню 2',
-                   3 => 'меню 3',
-                   4 => 'меню 4',
+    'logo'      => '/html/assets/images/logos/white-text.png',
+    'menu'      => [
+                    'services' => 'Услуги',
+                    'portfolio' => 'Портфолио',
+                    'order' => 'Заказать',
+                    'contact_us' => 'Контакты',
     ],
-    'logo'  => 'логотип',
-    'title' => 'тайтл на русском',
-    'slide' => [
-                    'frst_slide' => [
-                                        'h1' => 'h1 слайда1',
-                                        'h2' => 'h2 слайда1'
+    'banner'    => [
+                   'title' => 'заголовок',
+                   'sub'   => 'подзаголовок'
+    ],
+    'services'  => [
+                    'title'   => 'заголовок',
+                    'sub'     => 'подзаголовок',
+                    'service' => [
+                                    0 => [
+                                        'img'   => '/html/assets/images/portfolio/img4.jpg',
+                                        'text1' => 'заголовок',
+                                        'text2' => 'подзаголовок',
+                                        'list' => [
+                                                    0 => 'какой то текст',
+                                                    1 => 'какой то текст',
+                                                    2 => 'какой то текст'
+                                        ],
+                                        'price'   => '$99',
+                                        'buy'     => 'заказать'
+                                    ],
+                                    1 => [
+                                        'img'   => '/html/assets/images/portfolio/img4.jpg',
+                                        'text1' => 'заголовок',
+                                        'text2' => 'подзаголовок',
+                                        'list' => [
+                                            0 => 'какой то текст',
+                                            1 => 'какой то текст',
+                                            2 => 'какой то текст'
+                                        ],
+                                        'price'   => '$99',
+                                        'buy'     => 'заказать'
+                                    ],
+                                    2 => [
+                                        'img'   => '/html/assets/images/portfolio/img4.jpg',
+                                        'text1' => 'заголовок',
+                                        'text2' => 'подзаголовок',
+                                        'list' => [
+                                            0 => 'какой то текст',
+                                            1 => 'какой то текст',
+                                            2 => 'какой то текст'
+                                        ],
+                                        'price'   => '$99',
+                                        'buy'     => 'заказать'
+                                    ]
+                        
                     ],
-                    'scnd_slide' => [
-                                        'h1' => 'h1 слайда2',
-                                        'h2' => 'h2 слайда2'
+                    
+    ],
+    'portfolio'  => [
+                    'title'   => 'заголовок',
+                    'sub'     => 'подзаголовок',
+                    'work'    => [
+                                    0 => [
+                                        'img'   => '/html/assets/images/features/feature1/market.png',
+                                        'title' => 'заголовок',
+                                        'sub'   => 'подзаголовок'
+                                    ],
+                                    1 => [
+                                        'img'   => '/html/assets/images/features/feature1/fruit.png',
+                                        'title' => 'заголовок',
+                                        'sub'   => 'подзаголовок'
+                                    ],
+                                    2 => [
+                                        'img'   => '/html/assets/images/features/feature1/instant.png',
+                                        'title' => 'заголовок',
+                                        'sub'   => 'подзаголовок'
+                                    ]
+                    ]
+                    
+    ],
+    'order'      => [
+                    'title'  => 'заголовок',
+                    'img'    => '/html/assets/images/form-banners/banner2/banner-bg.jpg',
+                    'form'   => [
+                                    0 => 'Имя',
+                                    1 => 'Фамилия',
+                                    2 => 'Телефон',
+                                    3 => 'Сообщение',
+                                ],
+                    'booking' => 'заказать',
+                    'message' => 'текст сообщения',
+                    'button'  => 'кнопкакнокакнопкакнопкакнокакнопка'
+    ],
+    'contact_us' => [
+                    'title'  => 'заголовок',
+                    'img'    => '/html/assets/images/contact/2.jpg',
+                    'form'   => [
+                                0 => 'Имя',
+                                1 => 'Фамилия',
+                                2 => 'Телефон',
+                                3 => 'Сообщение',
+                    ],
+                    'submit'  => 'Отправить',
+                    'info'    => [
+                                    '/html/assets/images/contact/icon1.png' => [
+                                                   'h6' => 'Адрес',
+                                                   'p'  => 'Полагушина 666 <br> Москва',
+                                    ],
+                                    '/html/assets/images/contact/icon2.png' => [
+                                                 'h6' => 'Телефон',
+                                                 'p'  => '251 546 9442 <br> 630 446 8851',
+                                    ],
+                                    '/html/assets/images/contact/icon3.png' => [
+                                                 'h6' => 'Почта',
+                                                 'p' => 'info@wrappixel.com <br> 123@wrappixel.com',
+                                    ]
                     ]
     ],
-    'article' => [
-                    'frst_article' => [
-                        'text' => 'текст статьи 1',
-                    ],
-                    'scnd_article' => [
-                        'text' => 'текст статьи 2',
-                    ]
+    'footer'   => [
+                    'descr'  => 'Равным образом начало повседневной',
+                    'img'    => '/html/assets/images/logos/green-logo.png',
     ]
 ];
