@@ -79,17 +79,17 @@ return [
     
     ],
     'order'      => [
-        'title'  => 'title',
-        'img'    => '/html/assets/images/form-banners/banner2/banner-bg.jpg',
-        'form'   => [
-            0 => 'Name',
-            1 => 'lastname',
-            2 => 'tel',
-            3 => 'message',
-        ],
-        'booking' => 'order',
-        'message' => 'text',
-        'button'  => 'sbmt buy order'
+                    'title'   => 'title',
+                    'img'     => '/html/assets/images/form-banners/banner2/banner-bg.jpg',
+                    'form'    => [
+                                 'name'      => 'Name',
+                                 'last_name' => 'last name',
+                                 'tel'       => '89994574512',
+                                 'email'     => 'email',
+                            ],
+                    'booking' => 'order',
+                    'message' => 'text',
+                    'button'  => 'sbmt buy order'
     ],
     'contact_us' => [
         'title'  => 'title',

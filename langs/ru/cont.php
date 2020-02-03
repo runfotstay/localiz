@@ -83,9 +83,9 @@ return [
                     'img'    => '/html/assets/images/form-banners/banner2/banner-bg.jpg',
                     'form'   => [
                                     'name'      => 'Имя',
-                                    'last_name' => 'Фамилия',
-                                    'mail'      => 'Почта',
-                                    'tel'       => 'Телефон',
+                                    'last_name' => 'фамилия',
+                                    'tel'       => '89994574512',
+                                    'email'     => 'почта',
                                 ],
                     'booking' => 'заказать',
                     'message' => 'текст сообщения',
