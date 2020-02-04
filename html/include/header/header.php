@@ -38,7 +38,7 @@
         <div class="header6">
             <div class="container po-relative">
                 <nav class="navbar navbar-expand-lg h6-nav-bar">
-                    <a href="javascript:void(0)" class="navbar-brand"><img src="<?php echo $result['logo']?>" alt="wrapkit" /></a>
+                    <a href="javascript:void(0)" class="navbar-brand"><img src="<?php echo $result['logo']?>" alt="wrapkit" /></a>cd
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h6-info" aria-controls="h6-info" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-menu"></span></button>
                     <div class="collapse navbar-collapse hover-dropdown font-14 ml-auto" id="h6-info">
                         <ul class="navbar-nav ml-auto">
@@ -49,6 +49,19 @@
                                     </a>
                                 </li>
                             <?php endforeach; ?>
+                        </ul>
+                        <div class="act-buttons">
+                            <div class="btn-group">
+                                <button class="btn btn-success-gradiant font-14 dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <?php echo $result['changeLang'] ?>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" style="cursor:pointer;" onclick="location.href = '/ru'"><?php echo $result['lang']['ru'] ?></a>
+                                    <a class="dropdown-item" style="cursor:pointer;" onclick="location.href = '/en'"><?php echo $result['lang']['en'] ?></a>
+                                    <a class="dropdown-item" style="cursor:pointer;" onclick="location.href = '/pl'"><?php echo $result['lang']['pl'] ?></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </nav>
             </div>

@@ -10,6 +10,9 @@ switch ($lang) {
     case 'en':
         $result = include 'langs/en/cont.php';
         break;
+    case 'pl':
+        $result = include 'langs/pl/cont.php';
+        break;
 }
 
 include 'html/include/header/header.php';
