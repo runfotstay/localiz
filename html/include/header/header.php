@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="/html/assets/images/favicon.png">
-    <title>Wrapkit - The awesome and beautiful ui kit</title>
+    <title><?php echo $result['title'] ?></title>
     <!-- Bootstrap Core CSS -->
     <link href="/html/assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- This is for the animation CSS -->
@@ -38,7 +38,7 @@
         <div class="header6">
             <div class="container po-relative">
                 <nav class="navbar navbar-expand-lg h6-nav-bar">
-                    <a href="javascript:void(0)" class="navbar-brand"><img src="<?php echo $result['logo']?>" alt="wrapkit" /></a>cd
+                    <a href="javascript:void(0)" class="navbar-brand"><img src="<?php echo $result['logo']?>" alt="wrapkit" /></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h6-info" aria-controls="h6-info" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-menu"></span></button>
                     <div class="collapse navbar-collapse hover-dropdown font-14 ml-auto" id="h6-info">
                         <ul class="navbar-nav ml-auto">
@@ -75,6 +75,7 @@
                 <div class="col-md-6 align-self-center text-center" data-aos="fade-down" data-aos-duration="1200">
                     <h1 class="title"><?php echo $result['banner']['title'] ?></h1>
                     <h6 class="subtitle op-8"><?php echo $result['banner']['sub'] ?></h6>
+                    <button type="button" class="btn m-t-30 waves-effect waves-light btn-rounded btn-danger"><?php echo $result['callToAction'] ?></button>
                 </div>
                 <!-- Column -->
             </div>

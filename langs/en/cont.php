@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'title'      => 'title',
+    'callToAction' => 'Order now!',
     'logo'       => '/html/assets/images/logos/white-text.png',
     'menu'       => [
         'services'   => 'services',

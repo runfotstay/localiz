@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'title'      => 'title',
+    'callToAction' => 'Заказать сейчас',
     'logo'       => '/html/assets/images/logos/white-text.png',
     'menu'       => [
         'services'   => 'Услуги',
