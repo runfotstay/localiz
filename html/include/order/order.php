@@ -18,7 +18,7 @@
                                 </div>
                             </div>
                             <div class="form-row b-b p-30">
-                                <label class="text-inverse font-12 text-uppercase"><?php $result['order']['form']['mail']?></label>
+                                <label class="text-inverse font-12 text-uppercase"><?php $result['order']['form']['email']?></label>
                                 <input type="text" class="b-0 p-0 font-14 form-control" placeholder="Enter your Email Address">
                             </div>
                             <div class="form-row b-b p-30">
