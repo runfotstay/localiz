@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="/html/assets/images/favicon.png">
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
     <title><?php echo $result['title'] ?></title>
     <!-- Bootstrap Core CSS -->
     <link href="/html/assets/node_modules/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,10 +21,11 @@
     <!-- This page CSS -->
     <link href="/html/assets/node_modules/owl.carousel/dist/assets/owl.theme.green.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="/html/css/services/services.css" rel="stylesheet">
-    <link href="/html/css/features/features1-10.css" rel="stylesheet">
-    <link href="/html/css/c2a/c2a.css" rel="stylesheet">
-    <link href="/html/css/style.css" rel="stylesheet">
+<!--    <link href="/html/css/services/services.css" rel="stylesheet">-->
+<!--    <link href="/html/css/features/features1-10.css" rel="stylesheet">-->
+<!--    <link href="/html/css/c2a/c2a.css" rel="stylesheet">-->
+<!--    <link href="/html/css/style.css" rel="stylesheet">-->
+    <link href="/dist/style.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,7 +39,8 @@
         <div class="header6">
             <div class="container po-relative">
                 <nav class="navbar navbar-expand-lg h6-nav-bar">
-                    <a href="javascript:void(0)" class="navbar-brand"><img src="<?php echo $result['logo']?>" alt="wrapkit" /></a>
+<!--                    <a href="javascript:void(0)" class="navbar-brand"><img src="--><?php //echo $result['logo']?><!--" alt="wrapkit" /></a>-->
+                    <a href="javascript:void(0)" class="navbar-brand"><img src="/assets/images/logo.png" alt="wrapkit" class="logo__localize"/></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#h6-info" aria-controls="h6-info" aria-expanded="false" aria-label="Toggle navigation"><span class="ti-menu"></span></button>
                     <div class="collapse navbar-collapse hover-dropdown font-14 ml-auto" id="h6-info">
                         <ul class="navbar-nav ml-auto">
